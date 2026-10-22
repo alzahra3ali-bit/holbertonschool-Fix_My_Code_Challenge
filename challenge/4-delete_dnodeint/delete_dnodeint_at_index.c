@@ -10,7 +10,6 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 dlistint_t *saved_head;
-dlistint_t *next_node;
 unsigned int i;
 
 if (head == NULL || *head == NULL)
